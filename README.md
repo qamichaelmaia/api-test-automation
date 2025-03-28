@@ -5,7 +5,7 @@ Este repositório está em construção e tem como objetivo a criação de teste
 ## Estrutura de Testes
 
 ### 1. **OpenWeather API Tests**
-![alt text](<cypress\e2e\Open Weather\image.png>)
+![OpenWeather Image](./assets/image.png)
 
 O teste da API OpenWeather foca na verificação das previsões de clima e dos dados climáticos para uma cidade específica. A estrutura do teste segue os principais cenários de requisições GET para dados de clima atual e previsões.
 
@@ -16,7 +16,7 @@ Arquivo: `openweather.cy.js`
 - **Previsão do tempo**: Verifica as previsões futuras de clima para uma cidade.
 
 ### 2. **SpaceX API Tests**
-![alt text](<cypress\e2e\Space X\image2.png>)
+![SpaceX Image](./assets/image2.png)
 
 O teste da API SpaceX foca na verificação das informações sobre os lançamentos da SpaceX, bem como a lista de astronautas envolvidos. Este conjunto de testes inclui as requisições GET para os dados mais recentes de lançamentos e a lista de astronautas.
 
