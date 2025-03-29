@@ -1,6 +1,6 @@
-describe('Weather API Tests', () => {
+describe('Open Weather API Tests', () => {
     
-    const cidade = 'Jacobina';  // Nome da cidade
+    const cidade = 'Salvador';  // Nome da cidade
     const apiKey = '783267ed4b16a5f5424e62d6dcdaa28c'; // API Key centralizada
     
     beforeEach(() => {

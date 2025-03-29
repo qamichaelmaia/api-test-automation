@@ -12,8 +12,16 @@ O teste da API OpenWeather foca na verificação das previsões de clima e dos d
 Arquivo: `openweather.cy.js`
 
 #### Funcionalidades testadas:
-- **Clima atual**: Verifica as condições climáticas atuais para uma cidade.
-- **Previsão do tempo**: Verifica as previsões futuras de clima para uma cidade.
+- **Clima atual e Previsão do Tempo**: Verifica as condições climáticas atuais para uma cidade.
+- **Nível e situação de poluição do ar**: Verifica e informa os dados e condições de poluição do ar.
+- **Índice de raios UV**: Verifica o índice de raios Ultravioleta.
+
+#### Algumas adaptações que fiz no projeto:
+ - **Conversão de temperatura**: A API retorna em Kelvin, então rola uma conversão para Celsius.
+ - **Velocidade do vento**: Converti de m/s para km/h para facilitar a leitura.
+ - **Direção do vento**: Usei um algoritmo para traduzir os ângulos da API em direções cardeais (N, NE, S, etc.).
+
+![OpenWeather Gif](./assets/openweather.gif)
 
 ### 2. **SpaceX API Tests**
 ![SpaceX Image](./assets/image2.png)
@@ -26,6 +34,8 @@ Arquivo: `spacex.cy.js`
 - **Último lançamento**: Verifica os detalhes do último lançamento da SpaceX.
 - **Próximos lançamentos**: Verifica os próximos lançamentos planejados pela SpaceX.
 - **Astronautas**: Verifica a lista de astronautas que trabalharam com a SpaceX.
+
+![OpenWeather Gif](./assets/spacex.gif)
 
 ## Ferramentas Usadas
 
