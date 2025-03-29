@@ -53,7 +53,7 @@ Os testes seguem uma abordagem de **testes funcionais** para garantir que as API
 
 1. Clone o repositório para sua máquina local:
    ```bash
-   git clone https://github.com/seu-usuario/api-test-automation.git
+   git clone https://github.com/qamichaelmaia/api-test-automation.git
    ```
 
 2. Instale as dependências:
